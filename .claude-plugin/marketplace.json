@@ -10,7 +10,7 @@
     {
       "name": "rethink",
       "description": "Research best practice, then propose a clean-slate design from requirements — not the current implementation.",
-      "source": "./",
+      "source": "./plugins/rethink",
       "category": "productivity",
       "policy": {
         "installation": "AVAILABLE",

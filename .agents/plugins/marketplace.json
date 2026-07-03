@@ -8,7 +8,7 @@
       "name": "rethink",
       "source": {
         "source": "local",
-        "path": "./"
+        "path": "./plugins/rethink"
       },
       "policy": {
         "installation": "AVAILABLE",

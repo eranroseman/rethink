@@ -1,0 +1,26 @@
+{
+  "name": "rethink",
+  "version": "1.0.0",
+  "description": "First-principles design mode. Research best practice in similar use cases, then propose a clean-slate design from requirements — not the current implementation.",
+  "author": { "name": "eranroseman", "url": "https://github.com/eranroseman" },
+  "homepage": "https://github.com/eranroseman/rethink",
+  "repository": "https://github.com/eranroseman/rethink",
+  "license": "MIT",
+  "keywords": ["design", "architecture", "first-principles", "clean-slate"],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "Rethink",
+    "shortDescription": "First-principles design mode",
+    "longDescription": "Research best practice for the problem class, then propose a clean-slate design derived from requirements — treating the current implementation as gap-measurement, not the template.",
+    "developerName": "eranroseman",
+    "category": "Productivity",
+    "capabilities": ["Instructions", "Lifecycle hooks"],
+    "websiteURL": "https://github.com/eranroseman/rethink",
+    "defaultPrompt": [
+      "Use Rethink mode for this design.",
+      "How should this be designed from first principles?",
+      "Rethink this subsystem from the requirements up."
+    ]
+  }
+}

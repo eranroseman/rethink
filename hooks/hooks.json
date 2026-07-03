@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "command -v node >/dev/null 2>&1 && node \"${CLAUDE_PLUGIN_ROOT}/hooks/session-start.js\" || cat \"${CLAUDE_PLUGIN_ROOT}/hooks/directive.md\"",
+            "commandWindows": "if (Get-Command node -ErrorAction SilentlyContinue) { node \"$env:CLAUDE_PLUGIN_ROOT\\hooks\\session-start.js\" } else { Get-Content \"$env:CLAUDE_PLUGIN_ROOT\\hooks\\directive.md\" }",
+            "timeout": 5,
+            "statusMessage": "Loading rethink mode..."
+          }
+        ]
+      }
+    ]
+  }
+}

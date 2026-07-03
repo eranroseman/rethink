@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "rethink",
+  "description": "First-principles design mode for AI agents. Derive the design from requirements, not from what the code already looks like.",
+  "owner": {
+    "name": "eranroseman",
+    "url": "https://github.com/eranroseman"
+  },
+  "plugins": [
+    {
+      "name": "rethink",
+      "description": "Research best practice, then propose a clean-slate design from requirements — not the current implementation.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

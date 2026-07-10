@@ -1,6 +1,6 @@
 {
   "name": "rethink",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "First-principles design mode. Research best practice in similar use cases, then propose a clean-slate design from requirements — not the current implementation.",
   "author": { "name": "eranroseman", "url": "https://github.com/eranroseman" },
   "homepage": "https://github.com/eranroseman/rethink",
